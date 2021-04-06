@@ -88,7 +88,6 @@ C:\Users\user\Desktop>node baidu.js
 7
 ```
 # 第四部：Mocha+Chai实现测试
-## 安装Mocha+Chai
 
 - 安装mocha
     
