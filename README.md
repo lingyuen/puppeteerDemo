@@ -1,7 +1,7 @@
-# µÚÒ»²½£º°²×°Node.js
-1. ÏÂÔØNode.js °²×°°ü¼°Ô´ÂëÏÂÔØµØÖ·Îª£ºhttps://nodejs.org/en/download/
-2. Windows ÉÏ°²×° Node.js   Windows °²×°°ü(.msi)
-3. ¼ì²âPATH»·¾³±äÁ¿ÊÇ·ñÅäÖÃÁËNode.js£¬µã»÷¿ªÊ¼=¡·ÔËĞĞ=¡·ÊäÈë"cmd" => ÊäÈëÃüÁî"path"£¬Êä³öÈçÏÂ½á¹û
+# ç¬¬ä¸€æ­¥ï¼šå®‰è£…Node.js
+1. ä¸‹è½½Node.js å®‰è£…åŒ…åŠæºç ä¸‹è½½åœ°å€ä¸ºï¼šhttps://nodejs.org/en/download/
+2. Windows ä¸Šå®‰è£… Node.js   Windows å®‰è£…åŒ…(.msi)
+3. æ£€æµ‹PATHç¯å¢ƒå˜é‡æ˜¯å¦é…ç½®äº†Node.jsï¼Œç‚¹å‡»å¼€å§‹=ã€‹è¿è¡Œ=ã€‹è¾“å…¥"cmd" => è¾“å…¥å‘½ä»¤"path"ï¼Œè¾“å‡ºå¦‚ä¸‹ç»“æœ
 ```
 PATH=C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Windows\system32;
 C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;
@@ -9,14 +9,14 @@ c:\python32\python;C:\MinGW\bin;C:\Program Files\GTK2-Runtime\lib;
 C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\nodejs\;
 C:\Users\rg\AppData\Roaming\npm
 ```
-4. °æ±¾²âÊÔ£º½øÈëcmdÃüÁîĞĞ ÊäÈë¡°node --version¡± ÈçÏÂËùÊ¾£º
+4. ç‰ˆæœ¬æµ‹è¯•ï¼šè¿›å…¥cmdå‘½ä»¤è¡Œ è¾“å…¥â€œnode --versionâ€ å¦‚ä¸‹æ‰€ç¤ºï¼š
 
 ```
 C:\Users\user>node --version
 v14.16.0
 ```
-# µÚ¶ş²½£º°²×°puppeteer
-- cmd ÃüÁîĞĞÊäÈë
+# ç¬¬äºŒæ­¥ï¼šå®‰è£…puppeteer
+- cmd å‘½ä»¤è¡Œè¾“å…¥
 
 ```
 C:\Users\user>npm install puppeteer
@@ -42,13 +42,13 @@ added 54 packages from 73 contributors and audited 54 packages in 32.509s
 
 found 0 vulnerabilities
 ```
-# µÚÈı²¿£ºpuppeteerÊµÏÖ×Ô¶¯»¯
-> ÊµÏÖÒÔÏÂ¹¦ÄÜ
-1. ½«´ò¿ª°Ù¶ÈÊ×Ò³
-2. ËÑË÷Puppeteer£¬È·¶¨ÓĞËÑË÷ÄÚÈİ
-3. Çå¿ÕÊäÈë£¬·µ»Ø°Ù¶ÈÊ×Ò³
+# ç¬¬ä¸‰éƒ¨ï¼špuppeteerå®ç°è‡ªåŠ¨åŒ–
+> å®ç°ä»¥ä¸‹åŠŸèƒ½
+1. å°†æ‰“å¼€ç™¾åº¦é¦–é¡µ
+2. æœç´¢Puppeteerï¼Œç¡®å®šæœ‰æœç´¢å†…å®¹
+3. æ¸…ç©ºè¾“å…¥ï¼Œè¿”å›ç™¾åº¦é¦–é¡µ
 
-> ±àĞ´baidu.js½Å±¾
+> ç¼–å†™baidu.jsè„šæœ¬
 
 ```
 const puppeteer = require('puppeteer');
@@ -79,21 +79,21 @@ const puppeteer = require('puppeteer');
 })();
 
 ```
-> ÔËĞĞ½Å±¾
--  ½øÈëcmdÃüÁî ½øÈë½Å±¾Ä¿Â¼ Ö´ĞĞ node baidu.js
+> è¿è¡Œè„šæœ¬
+-  è¿›å…¥cmdå‘½ä»¤ è¿›å…¥è„šæœ¬ç›®å½• æ‰§è¡Œ node baidu.js
     
 ```
 C:\Users\user\Desktop>node baidu.js
-°Ù¶ÈÒ»ÏÂ£¬Äã¾ÍÖªµÀ
+ç™¾åº¦ä¸€ä¸‹ï¼Œä½ å°±çŸ¥é“
 7
 ```
-# µÚËÄ²¿£ºMocha+ChaiÊµÏÖ²âÊÔ
-## °²×°Mocha+Chai
+# ç¬¬å››éƒ¨ï¼šMocha+Chaiå®ç°æµ‹è¯•
+## å®‰è£…Mocha+Chai
 
-- °²×°mocha
+- å®‰è£…mocha
     
 ```
-C:\Users\user>npm install -g mocha  //±¾µØÏîÄ¿°²×°: npm install mocha
+C:\Users\user>npm install -g mocha  //æœ¬åœ°é¡¹ç›®å®‰è£…: npm install mocha
 D:\nodejs\npm_global\mocha -> D:\nodejs\npm_global\node_modules\mocha\bin\mocha
 D:\nodejs\npm_global\_mocha -> D:\nodejs\npm_global\node_modules\mocha\bin\_mocha
 npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.3.1 (node_modules\mocha\node_modules\chokidar\node_modules\fsevents):
@@ -103,7 +103,7 @@ npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
 added 91 packages from 48 contributors in 25.341s
 
 ```
-- °²×°chai
+- å®‰è£…chai
 
 ```
 C:\Users\user>npm install chai --save-dev
@@ -119,7 +119,7 @@ updated 1 package and audited 61 packages in 4.059s
 
 found 0 vulnerabilities
 ```
-- ½«ÉÏÃæµÄ´úÂë£¬¼ÓÈë Mocha+Chai£¬½øĞĞ²âÊÔ
+- å°†ä¸Šé¢çš„ä»£ç ï¼ŒåŠ å…¥ Mocha+Chaiï¼Œè¿›è¡Œæµ‹è¯•
 
 ```
 const puppeteer = require('puppeteer');
@@ -145,7 +145,7 @@ describe('Baidu search', () => {
 
     it('page title', async () => {
 		console.log(await page.title());
-        expect(await page.title()).to.eql('°Ù¶ÈÒ»ÏÂ£¬Äã¾ÍÖªµÀ');
+        expect(await page.title()).to.eql('ç™¾åº¦ä¸€ä¸‹ï¼Œä½ å°±çŸ¥é“');
     });
 
     it('get the list number of results', async () => {
@@ -167,48 +167,48 @@ describe('Baidu search', () => {
         await page.click('input[id="su"]');
         await page.waitFor(2000);
 		console.log(await page.title());
-        expect(await page.title()).to.eql('°Ù¶ÈÒ»ÏÂ£¬Äã¾ÍÖªµÀ');
+        expect(await page.title()).to.eql('ç™¾åº¦ä¸€ä¸‹ï¼Œä½ å°±çŸ¥é“');
     });
 
 });
 
 
 ```
-- Cmd ÃüÁîĞĞÖ´ĞĞ
+- Cmd å‘½ä»¤è¡Œæ‰§è¡Œ
 ```
 mocha baidu.js -t 30000
 
-//Ö´ĞĞ½á¹û£º
+//æ‰§è¡Œç»“æœï¼š
 
   Baidu search
-°Ù¶ÈÒ»ÏÂ£¬Äã¾ÍÖªµÀ
-    ¡Ì page title
+ç™¾åº¦ä¸€ä¸‹ï¼Œä½ å°±çŸ¥é“
+    âˆš page title
 waitFor is deprecated and will be removed in a future release. See https://github.com/puppeteer/puppeteer/issues/6214 for details and how to migrate your code.
 7
-    ¡Ì get the list number of results (2162ms)
+    âˆš get the list number of results (2162ms)
 waitFor is deprecated and will be removed in a future release. See https://github.com/puppeteer/puppeteer/issues/6214 for details and how to migrate your code.
 waitFor is deprecated and will be removed in a future release. See https://github.com/puppeteer/puppeteer/issues/6214 for details and how to migrate your code.
-°Ù¶ÈÒ»ÏÂ£¬Äã¾ÍÖªµÀ
-    ¡Ì back to BaiDu page  (4073ms)
+ç™¾åº¦ä¸€ä¸‹ï¼Œä½ å°±çŸ¥é“
+    âˆš back to BaiDu page  (4073ms)
 
 
   3 passing (8s)
 ```
-- Ê¹ÓÃmochawesomeºÃ¿´µÄhtmlÎÄ¼ş£¬È«¾Ö°²×°
+- ä½¿ç”¨mochawesomeå¥½çœ‹çš„htmlæ–‡ä»¶ï¼Œå…¨å±€å®‰è£…
 
 ```
 npm install -g --save-dev mochawesome
 ```
-- ÖØĞÂÖ´ĞĞ½Å±¾£¬ÒÔmochawesome·½Ê½Éú²ú²âÊÔ±¨¸æ
+- é‡æ–°æ‰§è¡Œè„šæœ¬ï¼Œä»¥mochawesomeæ–¹å¼ç”Ÿäº§æµ‹è¯•æŠ¥å‘Š
 
 ```
 mocha --reporter mochawesome baidu.js
 ```
 
-µÚÎå²½£ºWebStorm ÅäÖÃ MockaÔËĞĞ²âÊÔ½Å±¾
-- ´ò¿ª File - Settings - Languages&Frameworks - JavaScript - Libraries - Download
-- Ñ¡ÔñÏÂÔØ mocha ºÍ chai  £¨¼ÓÔØĞèÒªÒ»Ğ©Ê±¼ä£©
+# ç¬¬äº”æ­¥ï¼šWebStorm é…ç½® Mockaè¿è¡Œæµ‹è¯•è„šæœ¬
+- æ‰“å¼€ File - Settings - Languages&Frameworks - JavaScript - Libraries - Download
+- é€‰æ‹©ä¸‹è½½ mocha å’Œ chai  ï¼ˆåŠ è½½éœ€è¦ä¸€äº›æ—¶é—´ï¼‰
 - Run/Debug Configurations
-    Ñ¡ÔñFile patterns -> Test file patterns ÊäÈë ¡°_test_¡± ,ĞèÒª²âÊÔµÄ½Å±¾ÃüÃû°üº¬  ¡°_test_¡±  £¬ÀıÈç ¡°index_test_.js¡±
+    é€‰æ‹©File patterns -> Test file patterns è¾“å…¥ â€œ_test_â€ ,éœ€è¦æµ‹è¯•çš„è„šæœ¬å‘½ååŒ…å«  â€œ_test_â€  ï¼Œä¾‹å¦‚ â€œindex_test_.jsâ€
 
 
